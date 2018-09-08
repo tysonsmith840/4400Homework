@@ -1,0 +1,365 @@
+before:
+
+smith-3560#sho version 
+Cisco IOS Software, C3560 Software (C3560-IPSERVICESK9-M), Version 15.0(2)SE8, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Wed 13-May-15 23:32 by prod_rel_team
+
+ROM: Bootstrap program is C3560 boot loader
+BOOTLDR: C3560 Boot Loader (C3560-HBOOT-M) Version 12.2(44)SE5, RELEASE SOFTWARE (fc1)
+
+smith-3560 uptime is 3 minutes
+System returned to ROM by power-on
+System image file is "flash:c3560-ipservicesk9-mz.150-2.SE8.bin"
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+          
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+          
+cisco WS-C3560G-24TS (PowerPC405) processor (revision C0) with 131072K bytes of memory.
+Processor board ID FOC0928U085
+Last reset from power-on
+1 Virtual Ethernet interface
+28 Gigabit Ethernet interfaces
+The password-recovery mechanism is enabled.
+          
+512K bytes of flash-simulated non-volatile configuration memory.
+Base ethernet MAC Address       : 00:14:F2:88:AD:80
+Motherboard assembly number     : 73-9708-04
+Power supply part number        : 341-0098-01
+Motherboard serial number       : FOC09273REZ
+Power supply serial number      : DCA09210G1Z
+Model revision number           : C0
+Motherboard revision number     : A0
+Model number                    : WS-C3560G-24TS-S
+System serial number            : FOC0928U085
+SFP Module assembly part number : 73-7757-03
+SFP Module revision Number      : A0
+SFP Module serial number        : CAT09241MCR
+Top Assembly Part Number        : 800-25864-02
+Top Assembly Revision Number    : A0
+Version ID                      : 02
+CLEI Code Number                : CNMW200ARB
+Hardware Board Revision Number  : 0x05
+          
+          
+Switch Ports Model              SW Version            SW Image                 
+------ ----- -----              ----------            ----------               
+*    1 28    WS-C3560G-24TS     15.0(2)SE8            C3560-IPSERVICESK9-M     
+          
+          
+Configuration register is 0xF
+          
+
+
+after:
+
+smith-3560#sho version 
+Cisco IOS Software, C3560 Software (C3560-IPSERVICESK9-M), Version 15.0(2)SE11, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2017 by Cisco Systems, Inc.
+Compiled Sat 19-Aug-17 09:21 by prod_rel_team
+
+ROM: Bootstrap program is C3560 boot loader
+BOOTLDR: C3560 Boot Loader (C3560-HBOOT-M) Version 12.2(44)SE5, RELEASE SOFTWARE (fc1)
+
+smith-3560 uptime is 11 minutes
+System returned to ROM by power-on
+System image file is "flash:c3560-ipservicesk9-mz.150-2.SE11.bin"
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+          
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+          
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+          
+cisco WS-C3560G-24TS (PowerPC405) processor (revision C0) with 131072K bytes of memory.
+Processor board ID FOC0928U085
+Last reset from power-on
+1 Virtual Ethernet interface
+28 Gigabit Ethernet interfaces
+The password-recovery mechanism is enabled.
+          
+512K bytes of flash-simulated non-volatile configuration memory.
+Base ethernet MAC Address       : 00:14:F2:88:AD:80
+Motherboard assembly number     : 73-9708-04
+Power supply part number        : 341-0098-01
+Motherboard serial number       : FOC09273REZ
+Power supply serial number      : DCA09210G1Z
+Model revision number           : C0
+Motherboard revision number     : A0
+Model number                    : WS-C3560G-24TS-S
+System serial number            : FOC0928U085
+SFP Module assembly part number : 73-7757-03
+SFP Module revision Number      : A0
+SFP Module serial number        : CAT09241MCR
+Top Assembly Part Number        : 800-25864-02
+Top Assembly Revision Number    : A0
+Version ID                      : 02
+CLEI Code Number                : CNMW200ARB
+Hardware Board Revision Number  : 0x05
+          
+          
+Switch Ports Model              SW Version            SW Image                 
+------ ----- -----              ----------            ----------               
+*    1 28    WS-C3560G-24TS     15.0(2)SE11           C3560-IPSERVICESK9-M     
+          
+          
+Configuration register is 0xF
+          
+Pinging:
+
+smith-3560#ping 74.123.14.131
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 74.123.14.131, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/3/8 ms
+smith-3560#ping 74.123.14.132
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 74.123.14.132, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/8 ms
+smith-3560#ping 74.123.14.129
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 74.123.14.129, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/4/9 ms
+
+
+
+verification:
+
+............................Done!
+verify /md5 (flash:c3560-ipservicesk9-mz.150-2.SE11.bin) = 3634fddb151095e917df79bc77372adb
+
+
+
+smith-3560#show running-config 
+Building configuration...
+
+Current configuration : 3929 bytes
+!
+version 15.0
+no service pad
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname smith-3560
+!
+boot-start-marker
+boot-end-marker
+!
+!
+enable secret 5 $1$W5YP$ToHOlD6mqsfWNGqFKzxJ/1
+!
+username cbl privilege 15 secret 5 $1$WBAP$Zx/XapGvwTwkYuSwXJ/wQ/
+username tsmith secret 5 $1$2e.6$AmMVI0CYqiPhE5s5Xj/rc/
+no aaa new-model
+system mtu routing 1998
+ip routing
+ip domain-name tyson4400.tk
+!         
+!         
+!         
+!         
+!         
+crypto pki trustpoint TP-self-signed-4069043584
+ enrollment selfsigned
+ subject-name cn=IOS-Self-Signed-Certificate-4069043584
+ revocation-check none
+ rsakeypair TP-self-signed-4069043584
+!         
+!         
+crypto pki certificate chain TP-self-signed-4069043584
+ certificate self-signed 01
+  3082022B 30820194 A0030201 02020101 300D0609 2A864886 F70D0101 05050030 
+  31312F30 2D060355 04031326 494F532D 53656C66 2D536967 6E65642D 43657274 
+  69666963 6174652D 34303639 30343335 3834301E 170D3933 30333031 30303031 
+  34305A17 0D323030 31303130 30303030 305A3031 312F302D 06035504 03132649 
+  4F532D53 656C662D 5369676E 65642D43 65727469 66696361 74652D34 30363930 
+  34333538 3430819F 300D0609 2A864886 F70D0101 01050003 818D0030 81890281 
+  8100A67B 7EA2CF4F ADE91859 60DF8A66 27C55DCB 88955E38 21A862A4 600A477C 
+  DB8CD7DE 5DF1B299 8A4E4B4B 5D7F5856 F91491F4 DF7FDC29 1029C7DF C63D46FB 
+  CD02432B CC98ED10 50803D12 7754C62F E5E679A2 757446A6 85D3527F FD590BC0 
+  0B76063D 288B2DAA 1C744C0C 708DD402 8E34ED40 AAD2F038 76E19C58 9E719773 
+  3EBF0203 010001A3 53305130 0F060355 1D130101 FF040530 030101FF 301F0603 
+  551D2304 18301680 14373280 B4C089BA F3BEACB5 560DA15A DC7B433C 4D301D06 
+  03551D0E 04160414 373280B4 C089BAF3 BEACB556 0DA15ADC 7B433C4D 300D0609 
+  2A864886 F70D0101 05050003 8181002C 803562F5 30A19C33 75D58F98 3D4397B0 
+  CAC010BF E011C6E2 32452FE2 24A5C835 D20B2987 9DBCC1CC 275145C4 DC8188AF 
+  08CF0FF7 08A13CB2 4C8C8ABD C29821B2 F55C0E90 9F8A9ED7 CFAC5014 86FD39C1 
+  59AEF80E 32053362 E63C2DB8 F9737A22 7AB8BD73 05272AE6 0B939BBE 330DD8E0 
+  A91D823C 89ACFA82 A7FDCE71 D86FE7
+        quit
+!         
+!         
+!         
+!         
+!         
+spanning-tree mode pvst
+spanning-tree extend system-id
+!         
+vlan internal allocation policy ascending
+!         
+ip ssh version 2
+!         
+!         
+!         
+!         
+!         
+!         
+!         
+!         
+!         
+!         
+!         
+!         
+!         
+!         
+interface GigabitEthernet0/1
+!         
+interface GigabitEthernet0/2
+!         
+interface GigabitEthernet0/3
+!         
+interface GigabitEthernet0/4
+!         
+interface GigabitEthernet0/5
+!         
+interface GigabitEthernet0/6
+!         
+interface GigabitEthernet0/7
+!         
+interface GigabitEthernet0/8
+!         
+interface GigabitEthernet0/9
+!         
+interface GigabitEthernet0/10
+!         
+interface GigabitEthernet0/11
+!         
+interface GigabitEthernet0/12
+!         
+interface GigabitEthernet0/13
+!         
+interface GigabitEthernet0/14
+!         
+interface GigabitEthernet0/15
+!         
+interface GigabitEthernet0/16
+!         
+interface GigabitEthernet0/17
+!         
+interface GigabitEthernet0/18
+!         
+interface GigabitEthernet0/19
+!         
+interface GigabitEthernet0/20
+!         
+interface GigabitEthernet0/21
+!         
+interface GigabitEthernet0/22
+!         
+interface GigabitEthernet0/23
+!         
+interface GigabitEthernet0/24
+!         
+interface GigabitEthernet0/25
+!         
+interface GigabitEthernet0/26
+!         
+interface GigabitEthernet0/27
+!         
+interface GigabitEthernet0/28
+!         
+interface Vlan1
+ ip address 74.123.14.130 255.255.255.224
+!         
+ip http server
+ip http secure-server
+!         
+!         
+ip route 0.0.0.0 0.0.0.0 74.123.14.129
+!         
+!         
+!         
+vstack    
+banner login ^C
+          
+ ____ ____ ____ ____    ____  __   __ ____    ____ ____ ____ ____     
+(  _ (  __(  __(  _ \__(  _ \/  \ /  (  _ \__(  _ (  __(  __(  _ \    
+ ) _ () _) ) _) ) __(___) _ (  O (  O ) __(___) _ () _) ) _) ) __/    
+(____(____(____(__) _  (____/\__/_\__(__)  __(____(____(____(__) ____ 
+ / __/  \( \/ (  _ / )( (_  _(  __(  _ \  (  ( \/  (  / ___(  __/ ___)
+( (_(  O / \/ \) __) \/ ( )(  ) _) )   /  /    (  O )(\___ \) _)\___ \
+ \___\__/\_)(_(__) \____/(__)(____(__\_)  \_)__)\__(__(____(____(____/
+          
+          
+          
+          
+          
+          
+^C        
+!         
+line con 0
+ logging synchronous
+ login local
+line vty 0 4
+ login local
+ transport input ssh
+line vty 5 15
+ login local
+ transport input ssh
+!         
+end       
+
+
+Ssh:
+
+smith-3560#sho ip ssh
+SSH Enabled - version 2.0
+Authentication timeout: 120 secs; Authentication retries: 3
+Minimum expected Diffie Hellman key size : 1024 bits
+IOS Keys in SECSH format(ssh-rsa, base64 encoded):
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQC/WizNpDsmEwk0b0Gxb8zqY1/kOPfGXtp0l/AgYicp
+/FXtalyt4/iMeRXhj/VvRBrYV1UYwcLk/nrfaOibwTqsew9gZR4lRNtuqRZ6O4ew13RG/sl2e9Ixb0pU
+vllDXt16fUF9sfuHdRZFwtrhTVg8AvL8yMI3C8bHyqbIWLKGTw==                            
+Dir Flash:
+
+smith-3560#dir flash:
+Directory of flash:/
+
+    2  -rwx    17637120   Mar 1 1993 00:26:07 +00:00  c3560-ipservicesk9-mz.150-2.SE11.bin
+  446  -rwx         110   Mar 1 1993 00:15:50 +00:00  info
+    3  drwx         256  Nov 21 2015 23:04:11 +00:00  crashinfo_ext
+    6  -rwx        5309   Mar 1 1993 00:29:15 +00:00  private-config.text
+    7  -rwx        2699   Mar 1 1993 00:29:15 +00:00  config.text
+   13  -rwx        3096   Mar 1 1993 00:29:15 +00:00  multiple-fs
+    9  drwx         256   Mar 1 1993 00:00:08 +00:00  crashinfo
+
+32514048 bytes total (13579776 bytes free)
+      
